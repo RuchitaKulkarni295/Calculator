@@ -1,0 +1,92 @@
+body{
+    background-image: linear-gradient(#fc6d1a,#5184f1);
+}
+#demo1{
+padding: 80px;
+height:480px;
+width:220px;
+border:2px solid black;
+margin:auto;
+display: block;
+border-color: black;
+border-radius: 2%;
+background-color: rgba(35, 9, 234, 0.834);
+border: none;
+/* opacity: -1; */
+}
+#demo1 #box{
+margin-left:-31%;
+border-radius:1.5%;
+font-size:30px;
+text-shadow: rgb(255, 128, 0);
+border: none;
+}
+#d p{
+text-shadow: rgb(64, 224, 69);
+}
+#demo button{
+/* float:left; */
+margin-left: 6px;
+font-size:30px;
+padding:28px;
+display:block;
+position:relative;
+top:5px;
+right:76px;
+justify-items: flex-start;
+border-radius: 10px;
+padding-block-end: 11%;
+box-shadow: 0 4px 8px 0 rgba(65, 8, 234, 0.8);
+background-color: rgb(242, 248, 248);
+border:none;
+}
+#demo button:hover{
+background-color: rgb(50, 233, 14);
+}
+#demo2 button{
+/* float:right; */
+font-size:29px;
+padding:28px;
+border:none;
+/* font-size: 80px; */
+display:block;
+position:relative;
+bottom: 400px;
+right:120px;
+justify-items: flex-start;
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(55, 8, 223, 0.8);
+border:none;
+}
+#demo4 button{
+/* float:right; */
+font-size:30px;
+padding:27px;
+/* font-size: 80px; */
+display:block;
+position:relative;
+bottom: 400px;
+/* top:10px; */
+left:50px;
+/* right:0vmin; */
+justify-items: flex-start;
+border-radius: 10px;
+/* box-shadow: 1px 2px rgb(64, 173, 224); */
+box-shadow: 0 4px 8px 0 rgba(55, 8, 223, 0.8);
+border:none;
+}
+.demo5 button{
+/* border:steelblue; */
+font-size:26px;
+padding:30px;
+/* font-size: 80px; */
+display:block;
+position:relative;
+bottom: 410px;
+left:216px;
+border-radius: 10px;
+padding-inline-end:24px ;
+box-shadow: 0 4px 8px 0 rgba(55, 8, 223, 0.8);
+border:none;
+
+}

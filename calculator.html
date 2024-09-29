@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <div id="d">
+        <p style="font-size: 40px;text-decoration:underline;display:flex;justify-content: center;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Calculator</p>
+    <div id="demo1">
+    <input type="text"id="box"style="border:none;border:2px solid black;height:100px;width:350px;display:inline;left:520px;border-radius:12px"readonly>
+    <!-- <div id="demo1"> -->
+        <br><br>
+        <div id="demo3">
+        <div id="demo">
+        <button value="7" onclick="myfunc('7')">7</button><br>
+        <button value="4" onclick="myfunc('4')">4</button><br>
+        <button value="1" onclick="myfunc('1')">1</button><br>
+        <button value="C" onclick="clearDisplay()" class="special" style="font-size: 20px;padding-bottom: 39px;padding-right: 30px;font-style:normal;">C</button>
+        </div>
+        <div id="demo2" style="float:right">
+            <button value="8" onclick="myfunc('8')" style="padding-bottom:26px ;">8</button><br>
+            <button value="5" onclick="myfunc('5')" style="padding-top: 27px;">5</button><br>
+            <button value="2" onclick="myfunc('2')" style="padding-top: 22px;padding-block-end: 30px;">2</button><br>
+            <button value="0" onclick="myfunc('0')" style="padding-bottom: 30px;padding-inline-end: 34px;padding-right: 30px;padding-block-end: 28px;">0</button>
+        </div>
+        <div id="demo4" style="float:right">
+            <button value="9" onclick="myfunc('9')">9</button><br>
+            <button value="6" onclick="myfunc('6')">6</button><br>
+            <button value="3" onclick="myfunc('3')" style="padding-block-end: 
+            20px;padding-top: 30px;">3</button><br>
+            <button value="." onclick="myfunc('.')" style="padding-right: 37px;">.</button><br>
+        </div>
+        <div class="demo5" style="float:right;">
+            <button value="X" onclick="crossDisplay()" class="special" style="padding-top:10px;padding-right: 20px;padding-block-end:8px;margin-bottom: 10px;font-size: 16px;">X</button>
+            <button value="*" onclick="myfunc('*')" class="special" style="padding-right: 22px;padding-block-end: 4px;margin-bottom: 14px;">*</button>
+            <button value="-" onclick="myfunc('-')" class="special" style="margin-bottom:13px;padding-right: 24px;padding-block-end: 4px;">-</button>
+            <button value="+" onclick="myfunc('+')" class="special" style="padding-block-end: 4px;padding-right: 17px;margin-bottom: 13px;">+</button>
+            <button value="%" onclick="myfunc('/')" class="special" style="padding-right: 26px;padding-block-end: 4px;margin-bottom: 13px;">/</button> 
+            <button value="=" onclick="cal()" class="special" style="padding-right: 20px;padding-block-end: 4px;">=</button><br>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="1.js"></script>
+</body>
+</html>
